@@ -32,10 +32,18 @@
 en:
   hello: "Hello world"
   layout:
-    title: "Ruby on Rails Tutorial Sample App"
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+    header:
+      hello: "Sample App"
+    footer:
+      descrip1: "The"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Michael Hartl"
+      link3: "News"
   static_pages:
     home:
-      hello: "Sample App"
+      hello: "Welcome to the Sample App"
       title: "Home"
       link1: "Ruby on Rails Tutorial"
       descrip1: "This is the home page for the"
@@ -63,3 +71,5 @@ en:
       title: "Contact"
       descrip1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       link1: "contact page"
+  user:
+    title: "Sign Up"
