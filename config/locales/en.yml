@@ -73,3 +73,4 @@ en:
       link1: "contact page"
   user:
     title: "Sign Up"
+    descrip1: "This will be a signup page for new users."
