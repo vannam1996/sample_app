@@ -4,3 +4,6 @@ user:
   minimum_password: 6
   helper:
     size: 80
+  remember_me:
+    check: "1"
+    uncheck: "0"
