@@ -2,3 +2,5 @@ user:
   maximum_name: 50
   maximum_email: 255
   minimum_password: 6
+  helper:
+    size: 80
