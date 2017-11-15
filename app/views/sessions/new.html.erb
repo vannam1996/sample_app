@@ -1,0 +1,17 @@
+<% provide :title, t(".session.new.title") %>
+<h1>Login</h1>
+<div class = "row">
+  <div class = "col-md-6 col-md-offset-3">
+    <%= form_for(:session, url: login_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: "form_control" %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: "form_control" %>
+
+      <%= f.submit t("session.new.btlogin"), class: "btn btn-primary" %>
+    <% end %>
+    <p><%= t "session.new.descrip1" %> <%= link_to t("session.new.link1"), signup_path %></p>
+  </div>
+</div>

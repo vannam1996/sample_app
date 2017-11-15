@@ -36,6 +36,11 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
     header:
       hello: "Sample App"
+      user: "User"
+      account: "Account"
+      dropdown: "Profile"
+      setting: "Setting"
+      logout: "Log out"
     footer:
       descrip1: "The"
       link1: "Ruby on Rails Tutorial"
@@ -85,3 +90,11 @@ en:
       hello: "Welcome to the Sample App!"
   shared:
     descrip1: "The form contains"
+  session:
+    flash:
+      error: "Invalid email or password"
+    new:
+      descrip1: "New user ?"
+      link1: "Sign up now!"
+      title: "Login"
+      btlogin: "Login"
