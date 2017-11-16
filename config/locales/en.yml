@@ -71,6 +71,17 @@ en:
       title: "Contact"
       descrip1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       link1: "contact page"
+    signin:
+      title: "Sign In"
   user:
-    title: "Sign Up"
-    descrip1: "This will be a signup page for new users."
+    new:
+      title: "Sign Up"
+      descrip1: "This will be a signup page for new users."
+      passconfirm: "Confirmation"
+    show:
+      title: "Show User"
+    flash:
+      errorshow: "Can't find user"
+      hello: "Welcome to the Sample App!"
+  shared:
+    descrip1: "The form contains"
