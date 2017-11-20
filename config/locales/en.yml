@@ -55,6 +55,7 @@ en:
       descrip2: "sample application."
       tab_post: "Micropost Feed"
       sign_up: "sign up now"
+      logo: "Rails logo"
     help:
       hello: "Sample App"
       title: "Help"
@@ -112,6 +113,8 @@ en:
       message_active_account: "Account not activated. Check your email for the activation link."
   shared:
     descrip1: "The form contains"
+    following: "following"
+    followers: "followers"
   session:
     flash:
       error: "Invalid email or password"
@@ -157,6 +160,14 @@ en:
       confirm: "You sure?"
       text_area: "Compose new micropost..."
       bt_text: "Submit"
+      alert_scrip: "Maximum file size is 5MB. Please choose a smaller file."
   user_info:
     view_profile: "view my profile"
     post: "micropost"
+    post_count: "Micropost:"
+  follow_user:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "Following"
+    followers: "Followers"
+    find_error: "Can't find user"

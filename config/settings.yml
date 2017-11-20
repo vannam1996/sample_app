@@ -16,3 +16,5 @@ micropost:
   max_content: 140
   size_file: 5
   file_type: "image/jpeg,image/gif,image/png"
+follow:
+  size: 30
