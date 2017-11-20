@@ -8,5 +8,11 @@ user:
   remember_me:
     check: "1"
     uncheck: "0"
+  shared:
+    size: 50
 active:
   default_from: "noreply@example.com"
+micropost:
+  max_content: 140
+  size_file: 5
+  file_type: "image/jpeg,image/gif,image/png"
