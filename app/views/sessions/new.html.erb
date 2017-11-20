@@ -1,4 +1,4 @@
-<% provide :title, t(".session.new.title") %>
+<% provide :title, t("session.new.title") %>
 <h1>Login</h1>
 <div class = "row">
   <div class = "col-md-6 col-md-offset-3">
@@ -9,6 +9,11 @@
 
       <%= f.label :password %>
       <%= f.password_field :password, class: "form_control" %>
+
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+        <%= f.check_box :remember_me %>
+        <span><%= t "session.new.checkbox" %></span>
+      <% end %>
 
       <%= f.submit t("session.new.btlogin"), class: "btn btn-primary" %>
     <% end %>
