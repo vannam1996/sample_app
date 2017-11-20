@@ -7,3 +7,5 @@ user:
   remember_me:
     check: "1"
     uncheck: "0"
+active:
+  default_from: "noreply@example.com"
