@@ -98,11 +98,14 @@ en:
       title: "Show User"
     flash:
       errorshow: "Can't find user"
-      hello: "Welcome to the Sample App!"
+      checkmail: "Please check your email to activate your account."
       deleted: "User deleted"
       updateprofile: "Profile updated"
       danger_login: "Please log in."
       errordelete: "delete error"
+      valid_activate: "Account activated!"
+      invalid_activate: "Invalid activation link"
+      message_active_account: "Account not activated. Check your email for the activation link."
   shared:
     descrip1: "The form contains"
   session:
@@ -114,3 +117,11 @@ en:
       title: "Login"
       btlogin: "Login"
       checkbox: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      title_activation: "Sample App"
+      hi: "Hi %{name}"
+      active_mail: "Welcome to the Sample App! Click on the link below to activate your account:"
+      link_title: "Activate"
+      subject: "Account activation"
+
