@@ -79,6 +79,16 @@ en:
     signin:
       title: "Sign In"
   user:
+    edit:
+      title: "Edit user"
+      btn_text: "Save changes"
+      h1_title: "Update your profile"
+      change_avatar: "Change"
+    index:
+      title: "All users"
+      confirm_delete: "You sure?"
+      h1_title: "All users"
+      delete_user: "delete"
     new:
       title: "Sign Up"
       descrip1: "This will be a signup page for new users."
@@ -89,6 +99,10 @@ en:
     flash:
       errorshow: "Can't find user"
       hello: "Welcome to the Sample App!"
+      deleted: "User deleted"
+      updateprofile: "Profile updated"
+      danger_login: "Please log in."
+      errordelete: "delete error"
   shared:
     descrip1: "The form contains"
   session:
